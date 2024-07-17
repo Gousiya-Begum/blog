@@ -1,11 +1,11 @@
 Database Setup
 
-create a database named blog_db.
+create a database named `blog_db`.
 Execute the following SQL queries to create tables for users and posts:
 
 
 -- Create users table
-CREATE TABLE users (
+CREATE TABLE `users` (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,
@@ -16,7 +16,7 @@ CREATE TABLE users (
 
 
 -- Create posts table
-CREATE TABLE posts (
+CREATE TABLE `posts` (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
     content TEXT,
